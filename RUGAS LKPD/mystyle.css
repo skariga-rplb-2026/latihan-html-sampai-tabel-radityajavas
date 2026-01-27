@@ -1,0 +1,220 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+h3{
+    color: #34495e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.4em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    color:black;
+    font-weight: bold;
+    letter-spacing: 0.4em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.dttable {
+    border-spacing: 0;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+.dttable th{
+    padding: 5px 5%;
+    color: #efefef;
+    background-color: #34495e;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.dttable th:first-child{
+    border-bottom: 1px solid #34495e;
+}
+.dttable th:last-child{
+    border-bottom: 1px solid #34495e;
+}
+.dttable tr:nth-child(odd){
+    height: 25px;
+    color: #34495e;
+    background-color: #bdc3c7;
+    font-weight: 600;
+}
+.dttable tr:nth-child(even){
+    height: 25px;
+    color: #34495e;
+    background-color: #ecf0f1;
+}
+.dttable td:last-child{
+    border-bottom: 1px solid #34495e;
+}
+.dttable td:first-child{
+    border-left: 1px solid #34495e;
+}
+.dttable td:last-child{
+    border-right: 1px solid #34495e;
+}
+.dttable td:nth-child(1){
+    text-align: center;
+}
+.dttable td:nth-child(2){
+    text-align: center;
+}
+.dttable td:nth-child(4){
+    text-align: center;
+}
+.dttable td:nth-child(5){
+    text-align: center;
+}
+.dttable td:nth-child(8){
+    text-align: center;
+}
+.dttable tbody tr:hover{
+    background: yellow;
+}
+
+a{
+    padding: 5px 15px 5px 15px;
+    background-color: #34495e;
+    text-decoration: none;
+}
+a:link {
+    color: #ecf0f1;
+}
+a:visited {
+    color: #ecf0f1;
+}
+a:hover {
+    background-color: yellow;
+}
+a:active {
+    background-color: yellow;
+    font-weight: 600;
+    padding: 5px 14px 5px 13px;
+}
+.frmdata{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.frtabel{
+    border-spacing: 0;
+    border-collapse: collapse;
+    vertical-align: middle;
+    width: 100%;
+}
+.frtabel caption{
+    padding: 5px 5px;
+    color:#ecf0f1;
+    background-color: #34495e;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 600;
+    border: 1px solid #34495e;
+}
+.frtabel td{
+    color: #34495e;
+    padding: 8px 10px 8px 10px;
+    border-bottom: 1px solid #bdc3c7;
+    height: 25px;
+}
+.frtabel td:first-child{
+    font-weight: 600;
+    width: 140px;
+}
+.frtabel td:nth-child(2){
+    width: 20px;
+    text-align: center;
+}
+.frtabel tr:nth-child(5){
+    vertical-align: top;
+}
+.radio-group{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.button-group{
+    text-align: center;
+    padding-top: 15px !important;
+}
+input[type="text"]{
+    border: 1px solid #bdc3c7;
+    height: 25px;
+    width: 100%;
+    background-color: #ecf0f1;
+    color: #34495e;
+    padding: 3px;
+    box-sizing: border-box;
+}
+input[type="date"]{
+    border: 1px solid #bdc3c7;
+    height: 25px;
+    width: 100%;
+    background-color: #ecf0f1;
+    color: #34495e;
+    padding: 3px;
+    box-sizing: border-box;
+}
+input[type="tel"]{
+    border: 1px solid #bdc3c7;
+    height: 25px;
+    width: 100%;
+    background-color: #ecf0f1;
+    color: #34495e;
+    padding: 3px;
+    box-sizing: border-box;
+}
+input:focus{
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #34495e;
+}
+textarea{
+    border: 1px solid #bdc3c7;
+    width: 100%;
+    background-color: #ecf0f1;
+    color: #34495e;
+    height: 100px;
+    padding: 3px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+textarea:focus{
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #34495e;
+}
+input[type="submit"]{
+    background-color: #34495e;
+    height: 30px;
+    width: 48%;
+    color: #ecf0f1;
+    border: 0px;
+    margin-right: 2%;
+    cursor: pointer;
+    font-weight: 600;
+}
+input[type="submit"]:hover{
+    background-color: #2c3e50;
+}
+input[type="reset"]{
+    background-color: #34495e;
+    height: 30px;
+    width: 48%;
+    color: #ecf0f1;
+    border: 0px;
+    cursor: pointer;
+    font-weight: 600;
+}
+input[type="reset"]:hover{
+    background-color: #2c3e50;
+}
